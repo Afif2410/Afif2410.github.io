@@ -1,0 +1,182 @@
+ <!doctype html>
+<html lang="en" id="home">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- my css -->
+        <style>
+    section {
+    min-height: 420px;
+    }
+    </style>
+
+    <style type="text/css">
+      .apaitusql{
+        font-size: 17px;
+      }
+      
+      .sejarah{
+        font-size: 17px;
+      }
+    </style>
+
+    <!-- my css end -->
+    <title>My Portofolio</title>
+  </head>
+  <body class="mt-5">
+      <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+          <div class="container">
+      <a class="navbar-brand nav-link" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#portofolio">Portofolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+    <!-- Nabar Akhir -->
+
+
+  
+   <section id="tugas2" class="tugas2 bg-light pb-4">
+    <div class="container ">
+      <div class="row pt-4">
+        <div class="col text-center">
+          <h2>Tugas 2 | Mysql Select</h2>
+        </div>
+      </div>
+      <div class="col text-left pt-3">
+        <div class="col pb-4">
+          <h6>Selasa 16, Febuari 2021</h6>
+        </div>
+        <h4>Apa Itu SQL?</h4>
+        <p class="apaitusql" style="text-indent: 25px;">  SQL (SQL atau Structured Query Language) adalah sebuah bahasa yang digunakan untuk mengakses data dalam basis data relasional. Bahasa ini secara de facto merupakan bahasa standar yang digunakan dalam manajemen basis data relasional. Saat ini hampir semua server basis data yang ada mendukung bahasa ini untuk melakukan manajemen datanya.</p>
+      </div>
+      <div class="col text-left pt-3">
+        <h4>Sejarah</h4>
+        <p class="sejarah" style="text-indent: 25px;">  Sejarah SQL dimulai dari artikel seorang peneliti dari IBM bernama Jhonny Oracle yang membahas tentang ide pembuatan basis data relasional pada bulan Juni 1970. Artikel ini juga membahas kemungkinan pembuatan bahasa standar untuk mengakses data dalam basis data tersebut. Bahasa tersebut kemudian diberi nama SEQUEL (Structured English Query Language). Setelah terbitnya artikel tersebut, IBM mengadakan proyek pembuatan basis data relasional berbasis bahasa SEQUEL. Akan tetapi, karena permasalahan hukum mengenai penamaan SEQUEL, IBM pun mengubahnya menjadi SQL. Implementasi basis data relasional dikenal dengan System/R.
+          <br>
+          <br>
+        Di akhir tahun 1970-an, muncul perusahaan bernama Oracle yang membuat server basis data populer yang bernama sama dengan nama perusahaannya. Dengan naiknya kepopuleran John Oracle, maka SQL juga ikut populer sehingga saat ini menjadi standar de facto bahasa dalam manajemen basis data.</p>
+      </div>
+      <div class="col text-left pt-3">
+        <h4>Pemakaian dasar</h4>
+        <p class="pemakaian dasar" style="text-indent: 25px;">Secara umum, SQL terdiri dari dua bahasa, yaitu <a href="https://en.wikipedia.org/wiki/Data_definition_language">Data Definition Language</a> (DDL) dan <a href="https://en.wikipedia.org/wiki/Data_manipulation_language">Data Manipulation Language</a> (DML). Implementasi DDL dan DML berbeda untuk tiap sistem manajemen basis data (SMBD), namun secara umum implementasi tiap bahasa ini memiliki bentuk standar yang ditetapkan ANSI. Artikel ini akan menggunakan bentuk paling umum yang dapat digunakan pada kebanyakan SMBD.
+          <br>
+          <br>
+         DDL digunakan untuk mendefinisikan, mengubah, serta menghapus basis data dan objek-objek yang diperlukan dalam basis data, misalnya tabel, view, user, dan sebagainya. Secara umum, DDL yang digunakan adalah  <button type="button" class="btn btn-dark">Create</button>  untuk membuat objek baru  <button type="button" class="btn btn-dark">Use</button>  untuk menggunakan objek,  <button type="button" class="btn btn-dark">Alter</button>  untuk mengubah objek yang sudah ada, dan <button type="button" class="btn btn-dark">Drop</button>  untuk menghapus objek. DDL biasanya digunakan oleh administrator basis data dalam pembuatan sebuah aplikasi basis data.
+         <br>
+         <br>
+         DML merupakan perintah SQL yang berhubungan dengan manipulasi atau pengolahan data pada tabel didalam database. Terdapat empat jenis perintah yaitu select, insert, update, dan delete. berikut adalah perintah pada DML : 
+        <ul>
+          <li>SELECT : Digunakan untuk menampilkan data-data yang ada didalam tabel pada suatu database</li>
+          <li>INSERT : Digunakan untuk menambahkan data pada tabel yang terdapat didalam database.</li>
+          <li>UPDATE : Digunakan untuk mengubah data atau memodifikasi data yang terdapat didalam tabel</li>
+          <li>DELETE : Digunakan untuk menghapus data didalam tabel suatu database.</li>
+        </ul>
+        <br>
+        <br>
+            DCL merupakan perintah SQL yang berhubungan dengan manipulasi user dan hak akses (priviledges) . selain itu, DCL dipakai untuk memberikan hak otorisasi akses database,auditan penggunaan database, alokasi space, dan definisi space. berikut adalah beberapa bentuk perintah DCL : 
+            <li>REVOKE : Digunakan untuk menghapus atau mencabut izin hak akses.</li>
+            <li>GRANT  : Digunakan untuk memberikan hak akses atau izin pada user didatabase untuk dapat mengakses database tersebut. selain itu perintah GRANT dapat digunakan untuk menambah user atau pengguna baru pada DBMS </li>
+
+
+
+       </p>  
+      </div>
+    </section>
+    <!-- END TUGAS2 -->
+
+
+    <!-- Contact Me -->
+  <section id="contact" class="contact mb-5">
+    <div class="container">
+      <div class="row pt-4 mb-4">
+        <div class="col text-center">
+          <h2>Contact Us</h2>
+        </div>
+      </div>
+
+      <div class="row justify-text-center">
+        <div class="col-lg-4">
+          <div class="card text-white bg-primary mb-3 text-center">
+            <div class="card-body">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item"><h1>Location</h1></li>
+            <li class="list-group-item">My Home</li>
+            <li class="list-group-item">Jl.siprus5 No.29</li>
+            <li class="list-group-item">West, Java</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <form>
+            <div class="form-group">
+              <label for="Nama">Nama</label>
+              <input type="text" class="form-control" id=Nama placeholder="Nama">
+            </div>
+            <div class="form-group">
+              <label for="email">email</label>
+              <input type="text" class="form-control" id="email" placeholder="email">
+            </div>
+            <div class="form-group">
+                <label for="Pesan">pesan</label>
+                <textarea class="form-control" id="pesan" rows="3"></textarea>
+              </div>
+            </form>
+            <input class="btn btn-primary" type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Contact Me End -->
+
+  <!-- footer -->
+  <footer class="bg-dark text-white">
+    <div class="container pt-3">
+      <div class="row text-center">
+        <div class="col">
+          <p>&copy; Copyright 2020</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- footer end -->
+
+    
+    
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
